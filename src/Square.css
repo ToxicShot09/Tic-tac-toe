@@ -1,0 +1,32 @@
+/* src/Square.css */
+.square {
+    width: 80px; /* Size of each square */
+    height: 80px; /* Size of each square */
+    background: transparent; /* No background for the square */
+    border: none; /* No border */
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .symbol {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px; /* Size of the circle */
+    height: 60px; /* Size of the circle */
+    border-radius: 50%;
+    background: white; /* Circle background */
+    font-size: 36px; /* Size of X and O */
+  }
+  
+  .symbol.X {
+    color: #ff0000;
+  }
+  
+  .symbol.O {
+    color: #0000ff;
+  }
+  

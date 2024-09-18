@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* src/App.css */
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .game-header {
+    color: white;
+    font-size: 36px;
+    margin-top: 20px;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .status {
+    color: white;
+    font-size: 24px;
+    margin: 20px 0;
   }
-}
+  
+  .game-board {
+    border: none;
+  }
+  
+  .reset-button {
+    margin-top: 30px; /* Increase space from the board */
+    padding: 15px 60px; /* Larger padding for a bigger button */
+    font-size: 20px; /* Larger font size */
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 8px; /* Slightly rounded corners */
+    cursor: pointer;
+    width: 250px; /* Fixed width for a longer button */
+    text-align: center; /* Center the text */
+  }
+  
+  .reset-button:hover {
+    background-color: darkred;
+  }
+  

@@ -1,0 +1,10 @@
+/* src/Board.css */
+.board-row {
+    display: flex;
+    margin: 0; /* No margin between rows */
+  }
+  
+  .square {
+    margin: 0; /* No margin between squares */
+  }
+  
